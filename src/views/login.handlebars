@@ -1,0 +1,45 @@
+
+<section id="login">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mt-5">
+                <h2 class="mb-4">INICIAR SESIÓN</h2>
+                <form role="form" action='/api/users/login' method='post'>
+                    <div class="form-outline mb-4">
+                        <label for="email" class="sr-only">Correo electrónico</label>
+                        <input type="email" name="email" id="email" class="form-control"
+                            placeholder="alguien@ejemplo.com">
+                    </div>
+                    <div class="form-outline mb-4">
+                        <label for="key" class="sr-only">Contraseña</label>
+                        <input type="password" name="password" id="password" class="form-control"
+                            placeholder="Contraseña">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar sesión</button>
+                </form>
+
+
+                <div class="form-outline form-white mb-4">
+
+                    <button class="btn btn-outline-light btn-lg px-5"
+                        onclick="location.href='/api/users/register-github'"> <i class="bi bi-github"></i>
+                        Login with Github</button>
+                </div>
+
+
+                <div class="text-center">
+                    <p>¿No eres miembro? <a href="/register">Registrarse</a></p>
+                </div>
+                <script>
+                {{#if error}}
+                <div class="alert alert-danger" role="alert">
+                    {{{error}}}
+                    
+                </div>
+                {{/if}}
+                
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
