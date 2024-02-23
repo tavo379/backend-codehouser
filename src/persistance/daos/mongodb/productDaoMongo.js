@@ -67,6 +67,8 @@ export const createProductsMock = async (cant = 100) => {
       thumbnails: faker.image.avatar()
     }));
 
+    await ProductModelMocks.insertMany(products);
+
     return products;
   } catch (error) {
     logError(error);

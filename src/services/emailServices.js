@@ -32,7 +32,7 @@ export const mailOptionsEthereal = {
     html: templateHtml,
 };
 
-export const mailOptionsGmail = (dest, name) => ({
+export const mailOptionsGmail = (dest, name) => (console.log(dest, name, 'sendint from service'), {
     ...defaultMailOptions,
     from: config.gmail.EMAIL,
     to: dest,

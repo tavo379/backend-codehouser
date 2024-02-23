@@ -10,7 +10,7 @@ export const generateToken = (users) => {
   const token = jwt.sign(tokenPayload, config.auth.SECRET_KEY_JWT, {
     expiresIn: '20m',
   });
-  console.log('pasó por token')
+
   return token;  
 };
 

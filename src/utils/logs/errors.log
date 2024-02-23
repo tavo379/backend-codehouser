@@ -303,3 +303,44 @@ error | 02-04-2024 14:36:16 | Error Product Controllers Cannot read properties o
 error | 02-04-2024 14:36:55 | Error Passport local: users is not defined
 error | 02-04-2024 14:49:16 | Error Passport local: users is not defined
 error | 02-04-2024 15:18:54 | Error Passport local: users is not defined
+error | 02-16-2024 16:58:03 | Error User Controller: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u11-20020a258f8b000000b00dc22f4bf808sm471425ybl.32 - gsmtp
+error | 02-16-2024 17:14:43 | Error User Controller: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b3-20020a5b0083000000b00dcdbe11c243sm481264ybp.1 - gsmtp
+error | 02-16-2024 17:36:24 | Error User Controller: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials m18-20020a819e12000000b0060781543694sm525275ywj.10 - gsmtp
+error | 02-16-2024 17:44:15 | Error User Controller: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c129-20020a0dc187000000b00607ecc4212csm540048ywd.80 - gsmtp
+error | 02-16-2024 17:46:15 | Error User Controller: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g194-20020a0dddcb000000b0060799657d41sm538173ywe.22 - gsmtp
+info | 02-22-2024 13:25:12 | RegistrarInfo
+warning | 02-22-2024 13:25:12 | RegistrarWarning
+error | 02-22-2024 13:25:12 | RegistrarError
+fatal | 02-22-2024 13:25:12 | RegistrarFatalError
+info | 02-22-2024 14:10:37 | RegistrarInfo
+warning | 02-22-2024 14:10:37 | RegistrarWarning
+error | 02-22-2024 14:10:37 | RegistrarError
+fatal | 02-22-2024 14:10:37 | RegistrarFatalError
+info | 02-22-2024 14:10:49 | RegistrarInfo
+warning | 02-22-2024 14:10:49 | RegistrarWarning
+error | 02-22-2024 14:10:49 | RegistrarError
+fatal | 02-22-2024 14:10:49 | RegistrarFatalError
+info | 02-22-2024 14:17:05 | RegistrarInfo
+warning | 02-22-2024 14:17:05 | RegistrarWarning
+error | 02-22-2024 14:17:05 | RegistrarError
+fatal | 02-22-2024 14:17:05 | RegistrarFatalError
+info | 02-22-2024 14:24:45 | RegistrarInfo
+warning | 02-22-2024 14:24:45 | RegistrarWarning
+error | 02-22-2024 14:24:45 | RegistrarError
+fatal | 02-22-2024 14:24:45 | RegistrarFatalError
+info | 02-22-2024 14:25:01 | RegistrarInfo
+warning | 02-22-2024 14:25:01 | RegistrarWarning
+error | 02-22-2024 14:25:01 | RegistrarError
+fatal | 02-22-2024 14:25:01 | RegistrarFatalError
+[32minfo[39m | 02-22-2024 14:28:17 | [32mRegistrarInfo[39m
+[31mwarning[39m | 02-22-2024 14:28:17 | [31mRegistrarWarning[39m
+[31merror[39m | 02-22-2024 14:28:17 | [31mRegistrarError[39m
+[34minfo[39m | 02-22-2024 14:29:39 | RegistrarInfo
+[33mwarning[39m | 02-22-2024 14:29:39 | RegistrarWarning
+[35merror[39m | 02-22-2024 14:29:39 | RegistrarError
+[31mfatal[39m | 02-22-2024 14:29:39 | RegistrarFatalError

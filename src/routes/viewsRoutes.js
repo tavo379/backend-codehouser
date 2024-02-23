@@ -28,7 +28,7 @@ const strategyOptions = {
 
 const verifyToken = async (jwtPayload, done) => {
   try {
-    console.log("Verificando token...");
+    // console.log("Verificando token...");
     const users = await getUserByID(jwtPayload.userId);
     return users ? done(null, users) : done(null, false);
   } catch (error) {

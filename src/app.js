@@ -63,3 +63,6 @@ app.use("/api", apiRouter);
 app.listen(PORT, () => {
   console.log(`Servidor en el puerto ${PORT}`);
 });
+
+
+export default app;
